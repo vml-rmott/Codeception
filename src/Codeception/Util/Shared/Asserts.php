@@ -175,8 +175,8 @@ trait Asserts
     protected function assertRegExp($pattern, $string, $message = '')
     {
         \PHPUnit_Framework_Assert::assertRegExp($pattern, $string, $message);
-    }  
-    
+    }
+
     /**
      * Checks that string not match with pattern
      *
@@ -187,9 +187,9 @@ trait Asserts
     protected function assertNotRegExp($pattern, $string, $message = '')
     {
         \PHPUnit_Framework_Assert::assertNotRegExp($pattern, $string, $message);
-    }  
-        
-    
+    }
+
+
     /**
      * Checks that variable is empty.
      *
@@ -257,7 +257,7 @@ trait Asserts
     }
 
     /**
-     * 
+     *
      * @param        $haystack
      * @param        $constraint
      * @param string $message
@@ -269,7 +269,7 @@ trait Asserts
 
     /**
      * Checks that haystack doesn't attend
-     *  
+     *
      * @param        $haystack
      * @param        $constraint
      * @param string $message
@@ -280,10 +280,10 @@ trait Asserts
         \PHPUnit_Framework_Assert::assertThat($haystack, $constraint, $message);
     }
 
-    
+
     /**
      * Checks if file exists
-     *  
+     *
      * @param string $filename
      * @param string $message
      */
@@ -291,11 +291,11 @@ trait Asserts
     {
         \PHPUnit_Framework_Assert::assertFileExists($filename, $message);
     }
-    
-        
+
+
     /**
-     * Checks if file doesn't exists
-     *  
+     * Checks if file doesn't exist
+     *
      * @param string $filename
      * @param string $message
      */
@@ -303,8 +303,8 @@ trait Asserts
     {
         \PHPUnit_Framework_Assert::assertFileNotExists($filename, $message);
     }
-    
-    
+
+
     /**
      * Fails the test with message.
      *

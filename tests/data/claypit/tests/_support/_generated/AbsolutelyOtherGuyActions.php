@@ -11,7 +11,7 @@ use Codeception\Module\OtherHelper;
 
 trait AbsolutelyOtherGuyActions
 {
-   
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -35,7 +35,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('setHeader', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -52,7 +52,7 @@ trait AbsolutelyOtherGuyActions
      * $I->amOnPage('some-other-page.php');
      * ?>
      * ```
-     * 
+     *
      * @param string $name the name of the header to delete.
      * @see \Codeception\Module\PhpBrowser::deleteHeader()
      */
@@ -60,7 +60,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('deleteHeader', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -74,7 +74,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Condition('amHttpAuthenticated', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -96,7 +96,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Condition('amOnPage', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -114,7 +114,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Condition('amOnUrl', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -142,7 +142,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Condition('amOnSubdomain', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -169,7 +169,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('executeInGuzzle', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -208,7 +208,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('click', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -253,7 +253,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('see', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -298,7 +298,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSee', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -341,7 +341,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeLink', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -384,7 +384,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeLink', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -427,7 +427,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeInCurrentUrl', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -464,7 +464,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeInCurrentUrl', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -505,7 +505,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeCurrentUrlEquals', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -546,7 +546,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeCurrentUrlEquals', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -585,7 +585,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeCurrentUrlMatches', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -624,7 +624,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeCurrentUrlMatches', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -648,7 +648,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('grabFromCurrentUrl', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -689,7 +689,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeCheckboxIsChecked', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -728,7 +728,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeCheckboxIsChecked', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -779,7 +779,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeInField', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -830,13 +830,13 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeInField', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
      * Checks if the array of form parameters (name => value) are set on the form matched with the
      * passed selector.
-     * 
+     *
      * ``` php
      * <?php
      * $I->seeInFormFields('form[name=myform]', [
@@ -845,10 +845,10 @@ trait AbsolutelyOtherGuyActions
      * ]);
      * ?>
      * ```
-     * 
+     *
      * For multi-select elements, or to check values of multiple elements with the same name, an
      * array may be passed:
-     * 
+     *
      * ``` php
      * <?php
      * $I->seeInFormFields('.form-class', [
@@ -865,7 +865,7 @@ trait AbsolutelyOtherGuyActions
      * ```
      *
      * Additionally, checkbox values can be checked with a boolean.
-     * 
+     *
      * ``` php
      * <?php
      * $I->seeInFormFields('#form-id', [
@@ -874,9 +874,9 @@ trait AbsolutelyOtherGuyActions
      * ]);
      * ?>
      * ```
-     * 
+     *
      * Pair this with submitForm for quick testing magic.
-     * 
+     *
      * ``` php
      * <?php
      * $form = [
@@ -890,7 +890,7 @@ trait AbsolutelyOtherGuyActions
      * $I->seeInFormFields('//form[@id=my-form]', $form);
      * ?>
      * ```
-     * 
+     *
      * @param $formSelector
      * @param $params
      * Conditional Assertion: Test won't be stopped on fail
@@ -904,7 +904,7 @@ trait AbsolutelyOtherGuyActions
      *
      * Checks if the array of form parameters (name => value) are set on the form matched with the
      * passed selector.
-     * 
+     *
      * ``` php
      * <?php
      * $I->seeInFormFields('form[name=myform]', [
@@ -913,10 +913,10 @@ trait AbsolutelyOtherGuyActions
      * ]);
      * ?>
      * ```
-     * 
+     *
      * For multi-select elements, or to check values of multiple elements with the same name, an
      * array may be passed:
-     * 
+     *
      * ``` php
      * <?php
      * $I->seeInFormFields('.form-class', [
@@ -933,7 +933,7 @@ trait AbsolutelyOtherGuyActions
      * ```
      *
      * Additionally, checkbox values can be checked with a boolean.
-     * 
+     *
      * ``` php
      * <?php
      * $I->seeInFormFields('#form-id', [
@@ -942,9 +942,9 @@ trait AbsolutelyOtherGuyActions
      * ]);
      * ?>
      * ```
-     * 
+     *
      * Pair this with submitForm for quick testing magic.
-     * 
+     *
      * ``` php
      * <?php
      * $form = [
@@ -958,7 +958,7 @@ trait AbsolutelyOtherGuyActions
      * $I->seeInFormFields('//form[@id=my-form]', $form);
      * ?>
      * ```
-     * 
+     *
      * @param $formSelector
      * @param $params
      * @see \Codeception\Lib\InnerBrowser::seeInFormFields()
@@ -967,13 +967,13 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeInFormFields', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
      * Checks if the array of form parameters (name => value) are not set on the form matched with
      * the passed selector.
-     * 
+     *
      * ``` php
      * <?php
      * $I->dontSeeInFormFields('form[name=myform]', [
@@ -982,10 +982,10 @@ trait AbsolutelyOtherGuyActions
      * ]);
      * ?>
      * ```
-     * 
+     *
      * To check that an element hasn't been assigned any one of many values, an array can be passed
      * as the value:
-     * 
+     *
      * ``` php
      * <?php
      * $I->dontSeeInFormFields('.form-class', [
@@ -998,7 +998,7 @@ trait AbsolutelyOtherGuyActions
      * ```
      *
      * Additionally, checkbox values can be checked with a boolean.
-     * 
+     *
      * ``` php
      * <?php
      * $I->dontSeeInFormFields('#form-id', [
@@ -1007,7 +1007,7 @@ trait AbsolutelyOtherGuyActions
      * ]);
      * ?>
      * ```
-     * 
+     *
      * @param $formSelector
      * @param $params
      * Conditional Assertion: Test won't be stopped on fail
@@ -1021,7 +1021,7 @@ trait AbsolutelyOtherGuyActions
      *
      * Checks if the array of form parameters (name => value) are not set on the form matched with
      * the passed selector.
-     * 
+     *
      * ``` php
      * <?php
      * $I->dontSeeInFormFields('form[name=myform]', [
@@ -1030,10 +1030,10 @@ trait AbsolutelyOtherGuyActions
      * ]);
      * ?>
      * ```
-     * 
+     *
      * To check that an element hasn't been assigned any one of many values, an array can be passed
      * as the value:
-     * 
+     *
      * ``` php
      * <?php
      * $I->dontSeeInFormFields('.form-class', [
@@ -1046,7 +1046,7 @@ trait AbsolutelyOtherGuyActions
      * ```
      *
      * Additionally, checkbox values can be checked with a boolean.
-     * 
+     *
      * ``` php
      * <?php
      * $I->dontSeeInFormFields('#form-id', [
@@ -1055,7 +1055,7 @@ trait AbsolutelyOtherGuyActions
      * ]);
      * ?>
      * ```
-     * 
+     *
      * @param $formSelector
      * @param $params
      * @see \Codeception\Lib\InnerBrowser::dontSeeInFormFields()
@@ -1064,7 +1064,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeInFormFields', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1118,9 +1118,9 @@ trait AbsolutelyOtherGuyActions
      * $I->submitForm('#userForm', array('user' => array('login' => 'Davert', 'password' => '123456', 'agree' => true)));
      *
      * ```
-     * 
+     *
      * Pair this with seeInFormFields for quick testing magic.
-     * 
+     *
      * ``` php
      * <?php
      * $form = [
@@ -1163,7 +1163,7 @@ trait AbsolutelyOtherGuyActions
      *
      * Mixing string and boolean values for a checkbox's value is not
      * supported and may produce unexpected results.
-     * 
+     *
      * @param $selector
      * @param $params
      * @param $button
@@ -1173,7 +1173,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('submitForm', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1194,7 +1194,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('fillField', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1224,7 +1224,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('selectOption', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1243,7 +1243,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('checkOption', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1262,7 +1262,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('uncheckOption', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1283,7 +1283,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('attachFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1300,7 +1300,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('sendAjaxGetRequest', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1328,7 +1328,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('sendAjaxPostRequest', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1354,7 +1354,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('sendAjaxRequest', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1378,7 +1378,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('grabTextFrom', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1402,7 +1402,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('grabAttributeFrom', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1413,7 +1413,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('grabMultiple', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1426,7 +1426,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('grabValueFrom', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1452,7 +1452,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('setCookie', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1469,7 +1469,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('grabCookie', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1512,7 +1512,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeCookie', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1545,7 +1545,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeCookie', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1562,7 +1562,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('resetCookie', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1617,7 +1617,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeElement', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1664,7 +1664,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeElement', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1707,7 +1707,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeNumberOfElements', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1750,7 +1750,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeOptionIsSelected', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1793,7 +1793,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeOptionIsSelected', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1814,7 +1814,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seePageNotFound', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1843,7 +1843,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeResponseCodeIs', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1884,7 +1884,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeInTitle', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1913,7 +1913,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeInTitle', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1927,7 +1927,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Condition('amInPath', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1949,7 +1949,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('openFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1968,7 +1968,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('deleteFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -1987,7 +1987,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('deleteDir', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -2007,7 +2007,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('copyDir', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -2050,7 +2050,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeInThisFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -2095,7 +2095,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeFileContentsEqual', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -2134,7 +2134,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeInThisFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -2145,7 +2145,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('deleteThisFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -2186,11 +2186,11 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeFileFound', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
-     * Checks if file does not exists in path
+     * Checks if file does not exist in path
      *
      * @param $filename
      * @param string $path
@@ -2203,7 +2203,7 @@ trait AbsolutelyOtherGuyActions
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
-     * Checks if file does not exists in path
+     * Checks if file does not exist in path
      *
      * @param $filename
      * @param string $path
@@ -2213,7 +2213,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeFileFound', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -2232,7 +2232,7 @@ trait AbsolutelyOtherGuyActions
         return $this->scenario->runStep(new \Codeception\Step\Action('cleanDir', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *

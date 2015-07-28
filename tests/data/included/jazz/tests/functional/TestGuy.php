@@ -25,7 +25,7 @@ use Jazz\Codeception\Module\TestHelper;
 */
 class TestGuy extends \Codeception\Actor
 {
-   
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -39,7 +39,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Condition('amInPath', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -61,7 +61,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Action('openFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -80,7 +80,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Action('deleteFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -99,7 +99,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Action('deleteDir', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -119,7 +119,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Action('copyDir', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -162,7 +162,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeInThisFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -207,7 +207,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeFileContentsEqual', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -246,7 +246,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeInThisFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -257,7 +257,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Action('deleteThisFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -298,11 +298,11 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Assertion('seeFileFound', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
-     * Checks if file does not exists in path
+     * Checks if file does not exist in path
      *
      * @param $filename
      * @param string $path
@@ -315,7 +315,7 @@ class TestGuy extends \Codeception\Actor
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
-     * Checks if file does not exists in path
+     * Checks if file does not exist in path
      *
      * @param $filename
      * @param string $path
@@ -325,7 +325,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Assertion('dontSeeFileFound', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -344,7 +344,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Action('cleanDir', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
@@ -358,7 +358,7 @@ class TestGuy extends \Codeception\Actor
         return $this->scenario->runStep(new \Codeception\Step\Action('writeToFile', func_get_args()));
     }
 
- 
+
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *

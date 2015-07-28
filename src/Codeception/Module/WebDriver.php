@@ -143,7 +143,7 @@ class WebDriver extends CodeceptionModule implements
         'window_size'   => false,
         'capabilities'  => [],
         'connection_timeout' => null,
-        'request_timeout' => null        
+        'request_timeout' => null
     ];
 
     protected $wd_host;
@@ -195,7 +195,7 @@ class WebDriver extends CodeceptionModule implements
 
         $firefox_profile = $this->config['capabilities']['firefox_profile'];
         if (file_exists($firefox_profile) === false) {
-            throw new ModuleConfigException(__CLASS__, "Firefox profile does not exists under given path " . $firefox_profile);
+            throw new ModuleConfigException(__CLASS__, "Firefox profile does not exist under given path " . $firefox_profile);
         }
         // Set firefox profile as capability
         $this->capabilities['firefox_profile'] = file_get_contents($firefox_profile);
@@ -698,17 +698,17 @@ class WebDriver extends CodeceptionModule implements
         $els = $this->findFields($field);
         $this->assertNot($this->proceedSeeInField($els, $value));
     }
-    
+
     public function seeInFormFields($formSelector, array $params)
     {
         $this->proceedSeeInFormFields($formSelector, $params, false);
     }
-    
+
     public function dontSeeInFormFields($formSelector, array $params)
     {
         $this->proceedSeeInFormFields($formSelector, $params, true);
     }
-    
+
     protected function proceedSeeInFormFields($formSelector, array $params, $assertNot)
     {
         $form = $this->match($this->webDriver, $formSelector);
@@ -1332,13 +1332,13 @@ class WebDriver extends CodeceptionModule implements
      * ```
      * Note that "2" will be the submitted value for the "plan" field, as it is
      * the selected option.
-     * 
+     *
      * Also note that this differs from PhpBrowser, in that
      * ```'user' => [ 'login' => 'Davert' ]``` is not supported at the moment.
      * Named array keys *must* be included in the name as above.
-     * 
+     *
      * Pair this with seeInFormFields for quick testing magic.
-     * 
+     *
      * ``` php
      * <?php
      * $form = [
@@ -1381,20 +1381,20 @@ class WebDriver extends CodeceptionModule implements
      *
      * Mixing string and boolean values for a checkbox's value is not supported
      * and may produce unexpected results.
-     * 
-     * Field names ending in "[]" must be passed without the trailing square 
+     *
+     * Field names ending in "[]" must be passed without the trailing square
      * bracket characters, and must contain an array for its value.  This allows
      * submitting multiple values with the same name, consider:
-     * 
+     *
      * ```php
      * $I->submitForm('#my-form', [
      *     'field[]' => 'value',
      *     'field[]' => 'another value', // 'field[]' is already a defined key
      * ]);
      * ```
-     * 
+     *
      * The solution is to pass an array value:
-     * 
+     *
      * ```php
      * // this way both values are submitted
      * $I->submitForm('#my-form', [
@@ -1415,7 +1415,7 @@ class WebDriver extends CodeceptionModule implements
             throw new ElementNotFound($selector, "Form via CSS or XPath");
         }
         $form = reset($form);
-        
+
         $fields = $form->findElements(WebDriverBy::cssSelector('input:enabled,textarea:enabled,select:enabled,input[type=hidden]'));
         foreach ($fields as $field) {
             $fieldName = $this->getSubmissionFormFieldName($field->getAttribute('name'));
@@ -1441,7 +1441,7 @@ class WebDriver extends CodeceptionModule implements
                     $value = array_pop($params[$fieldName]);
                 }
             }
-            
+
             if ($field->getAttribute('type') === 'checkbox' || $field->getAttribute('type') === 'radio') {
                 if ($value === true || $value === $field->getAttribute('value')) {
                     $this->checkOption($field);
@@ -1456,7 +1456,7 @@ class WebDriver extends CodeceptionModule implements
                 $this->fillField($field, $value);
             }
         }
-        
+
         $this->debugSection(
             'Uri',
             $form->getAttribute('action') ? $form->getAttribute('action') : $this->_getCurrentUri()

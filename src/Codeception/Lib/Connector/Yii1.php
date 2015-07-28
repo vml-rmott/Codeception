@@ -72,7 +72,7 @@ class Yii1 extends Client
             $uriPath = "/{$scriptName}/{$uriPath}";
         }
 
-        // Add forward slash if not exists
+        // Add forward slash if does not exist
         if (strpos($uriPath, '/') !== 0) {
             $uriPath = "/{$uriPath}";
         }
